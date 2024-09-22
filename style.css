@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f6f8fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #24292e;
+    padding: 1rem 2rem;
+}
+.cta-btn-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    background-color: #2e3741;
+    color: #ffffff;
+    padding: 5rem 2rem;
+    text-align: center;
+    margin: auto;
+}
+.slideshow {
+    width: 60%;
+    height: 50vh;
+    background-size: contain;
+    background-repeat: repeat;
+    justify-content: center;
+    animation: slideshow 35s ease-in-out infinite;
+    }
+    @keyframes slideshow {
+    0% { background-image: url("https://pages.github.com/images/slideshow/adobeos.png"); }
+    10% { background-image: url("https://pages.github.com/images/slideshow/bootstrap.png"); }
+    20% { background-image: url("https://pages.github.com/images/slideshow/electron.png"); }
+    30% { background-image: url("https://pages.github.com/images/slideshow/facebookdesign.png"); }
+    40% { background-image: url("https://pages.github.com/images/slideshow/foundation.png"); }
+    50% { background-image: url("https://pages.github.com/images/slideshow/ghtraining.png"); }
+    60% { background-image: url("https://pages.github.com/images/slideshow/jekyllrb.png"); }
+    70% { background-image: url("https://pages.github.com/images/slideshow/microsoft.png"); }
+    80% { background-image: url("https://pages.github.com/images/slideshow/bootstrap.png"); }
+    90% { background-image: url("https://pages.github.com/images/slideshow/semanticui.png"); }
+    100% { background-image: url("https://pages.github.com/images/slideshow/yeoman.png"); }
+    }
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.start-now-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cta-btn-container{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.cta-btn {
+    padding: 1rem 2rem;
+    background-color: #28a745;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.feature-section {
+    display: block;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.feature-item {
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+
+.options {
+    margin-top: 10px;
+    display: column;
+}
+.feature-item-content1{
+    border: 1px solid   #aaa4a4;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.feature-item-content2{
+    border: 1px solid   #aaa4a4;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.feature-item-content3{
+    border: 1px solid   #aaa4a4;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.feature-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature-item p {
+    font-size: 
+}
+.footer{
+    text-align: center;
+}
